@@ -2,7 +2,7 @@ version: 2.1
 executors:
   cl:
     docker:
-      - image: fukamachi/roswell:latest-alphine
+      - image: fukamachi/roswell:latest-alpine
 
 workflows:
   version: 2
