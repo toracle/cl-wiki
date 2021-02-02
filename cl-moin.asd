@@ -5,7 +5,8 @@
   :depends-on ()
   :components ((:module "src"
                 :components
-                ((:file "main"))))
+                ((:file "main")
+                 (:file "file-store"))))
   :description ""
   :in-order-to ((test-op (test-op "cl-moin/tests"))))
 
