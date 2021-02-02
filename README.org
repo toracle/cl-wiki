@@ -1,4 +1,4 @@
-* Cl-Moin 
+* Cl-Wiki 
 
 ** Usage
 

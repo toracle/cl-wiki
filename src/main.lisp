@@ -1,5 +1,5 @@
-(defpackage cl-moin
+(defpackage cl-wiki
   (:use :cl))
-(in-package :cl-moin)
+(in-package :cl-wiki)
 
 ;; blah blah blah.

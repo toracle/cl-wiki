@@ -1,7 +1,7 @@
-(defpackage :cl-moin/store/file
+(defpackage :cl-wiki/store/file
   (:use :common-lisp))
 
-(in-package :cl-moin/store/file)
+(in-package :cl-wiki/store/file)
 
 
 (defparameter *storage-root* "wikidata")
