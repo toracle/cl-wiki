@@ -1,0 +1,19 @@
+version: 2.1
+executors:
+  cl:
+    docker:
+      - image: fukamachi/roswell:latest-alphine
+
+workflows:
+  version: 2
+  test:
+    jobs:
+      - test
+
+jobs:
+  test:
+    executor: cl
+    steps:
+      - checkout
+      - run: "ros install rove"
+      - run: "make test"
