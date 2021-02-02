@@ -1,10 +1,10 @@
-(defpackage :cl-moin
+(defpackage :cl-moin/store/file
   (:use :common-lisp))
 
-(in-package :cl-moin)
+(in-package :cl-moin/store/file)
 
 
-(defparameter *storage-path* nil)
+(defparameter *storage-root* "wikidata")
 
 
 (defun get-page (pagename &optional rev)

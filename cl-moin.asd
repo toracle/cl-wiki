@@ -17,6 +17,7 @@
                "rove")
   :components ((:module "tests"
                 :components
-                ((:file "main"))))
+                ((:file "main")
+                 (:file "file-store"))))
   :description "Test system for cl-moin"
   :perform (test-op (op c) (symbol-call :rove :run c)))
